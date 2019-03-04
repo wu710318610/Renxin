@@ -1,0 +1,31 @@
+//默认屏幕宽100，高200
+//发现的坐标为（75，190）
+//朋友圈的坐标为（50，30）
+
+${
+launchApp(‘微信’);
+var x=device.width
+;
+var y=device.height
+;
+sleep (2000)
+;
+tap（75，190）;
+
+sleep(2000)
+;
+tap（50，30）
+;
+sleep(2000);
+
+
+while(true){
+
+swipe(50,150,50,100,50);
+
+sleep（3000）;
+
+}
+
+back();
+}
